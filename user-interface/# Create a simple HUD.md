@@ -5,7 +5,9 @@ Litiengine provides a broad kit of Components for this with the `GuiComponents` 
 
 Lets implement a simple HUD that creates a healthbar for us.
 
-* ![Healthbar](images/Healthbar.PNG) Healthbar
+![Healthbar](https://user-images.githubusercontent.com/105820458/173563028-6e118d7a-8823-41b4-aa99-55e3b3a20544.PNG)
+
+
 
 ## 1. our HUD class
 
@@ -28,6 +30,7 @@ public class HUD extends GuiComponent {
     private static final BufferedImage HEART = Imaging.scale(Resources.images().get("src/main/resources/hud/life.png"), 5.0);
     private static final BufferedImage HEARTEMPTY = Imaging.scale(Resources.images().get("src/main/resources/hud/herzleer.png"), 5.0);
    
+
     //optional / intialize a Padding variable, to change positioning easier later on
     private static final int PADDING = 10;
     
